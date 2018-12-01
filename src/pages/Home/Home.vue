@@ -62,57 +62,46 @@
         <div class="c_middle">
           <img src="./images/111.png" alt="">
         </div>
-        <ul class="c_bottom">
-          <li class="c_bottom_list">
-            <p class="c_p1">无限回购榜单</p>
-            <p class="c_p2">好物买了还想买</p>
-            <div class="c_picture">
-              <img src="./images/tuoxie.png" alt="">
-              <img src="./images/weijin.png" alt="">
-            </div>
-          </li>
-          <li class="c_bottom_list">
-            <p class="c_p1">无限回购榜单</p>
-            <p class="c_p2">好物买了还想买</p>
-            <div class="c_picture">
-              <img src="./images/tuoxie.png" alt="">
-              <img src="./images/weijin.png" alt="">
-            </div>
-          </li>
-          <li class="c_bottom_list">
-            <p class="c_p1">无限回购榜单</p>
-            <p class="c_p2">好物买了还想买</p>
-            <div class="c_picture">
-              <img src="./images/tuoxie.png" alt="">
-              <img src="./images/weijin.png" alt="">
-            </div>
-          </li>
-          <li class="c_bottom_list">
-            <p class="c_p1">无限回购榜单</p>
-            <p class="c_p2">好物买了还想买</p>
-            <div class="c_picture">
-              <img src="./images/tuoxie.png" alt="">
-              <img src="./images/weijin.png" alt="">
-            </div>
-          </li>
-        </ul>
       </div>
-    </div>
-
-    <div class="c_swaper">
-      <div class="swiper-container" >
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" >
-            <a href="javascript:" >
-                <img src="./images/05.jpg">
-            </a>
-
+      <ul class="c_bottom">
+        <li class="c_bottom_list">
+          <p class="c_p1">无限回购榜单</p>
+          <p class="c_p2">好物买了还想买</p>
+          <div class="c_picture">
+            <img src="./images/tuoxie.png" alt="">
+            <img src="./images/weijin.png" alt="">
           </div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
+        </li>
+        <li class="c_bottom_list">
+          <p class="c_p1">无限回购榜单</p>
+          <p class="c_p2">好物买了还想买</p>
+          <div class="c_picture">
+            <img src="./images/tuoxie.png" alt="">
+            <img src="./images/weijin.png" alt="">
+          </div>
+        </li>
+        <li class="c_bottom_list">
+          <p class="c_p1">无限回购榜单</p>
+          <p class="c_p2">好物买了还想买</p>
+          <div class="c_picture">
+            <img src="./images/tuoxie.png" alt="">
+            <img src="./images/weijin.png" alt="">
+          </div>
+        </li>
+        <li class="c_bottom_list">
+          <p class="c_p1">无限回购榜单</p>
+          <p class="c_p2">好物买了还想买</p>
+          <div class="c_picture">
+            <img src="./images/tuoxie.png" alt="">
+            <img src="./images/weijin.png" alt="">
+          </div>
+        </li>
+      </ul>
     </div>
+
+    <div class="line"></div>
+
+    <NavBar/>
 
     <div class="c_cont1">
       <div class="cont1_top">
@@ -174,21 +163,24 @@
       </ul>
     </div>
 
-    <div class="c_cont1">
-      <div class="cont1_top">
-        <div class="cont1_top_left">
+    <div class="line"></div>
+
+    <div class="c_cont2">
+      <div class="cont2_top">
+        <div class="cont2_top_left">
           <span>新品首发</span>
         </div>
-        <div class="cont1_top_right">
+        <div class="cont2_top_right">
           <span>更多<i class="iconfont icon-xiangyoujiantou"></i></span>
         </div>
       </div>
-      <ul class="cont1_good">
+      <ul class="cont2_good">
         <li class="li2">
           <img src="./images/you.png" alt="">
           <span class="jiage2">
             <span class="jieshao">压榨葵花油5升</span>
             <span class="newjia2">￥52.8</span>
+            <span class="yellowWorld">美食狂欢</span>
           </span>
         </li>
         <li class="li2">
@@ -229,6 +221,101 @@
       </ul>
     </div>
 
+    <div class="line"></div>
+
+    <div class="c_cont3">
+      <div class="cont3_top">
+        <div class="cont3_top_left">
+          <span>人气推荐</span>
+        </div>
+        <div class="cont3_top_right">
+          <span>更多<i class="iconfont icon-xiangyoujiantou"></i></span>
+        </div>
+      </div>
+      <ul class="cont3_good">
+        <li class="li3_top">
+          <div class="cont3_left">
+            <img src="./images/heiao.png" alt="">
+          </div>
+          <div class="cont3_right">
+            <span class="cont3_T1">明星日</span>
+            <span class="cont3_T2">男士轻薄无缝羽绒服</span>
+            <span class="cont3_T3">一体无缝设计，大气温暖防钻绒</span>
+            <span class="cont3_T4">￥252</span>
+          </div>
+        </li>
+        <li class="li3">
+          <img src="./images/you.png" alt="">
+          <span class="jiage2">
+            <span class="jieshao">压榨葵花油5升</span>
+            <span class="newjia2">￥52.8</span>
+          </span>
+        </li>
+        <li class="li3">
+          <img src="./images/you.png" alt="">
+          <span class="jiage2">
+            <span class="jieshao">压榨葵花油5升</span>
+            <span class="newjia2">￥52.8</span>
+          </span>
+        </li>
+        <li class="li3">
+          <img src="./images/you.png" alt="">
+          <span class="jiage2">
+            <span class="jieshao">压榨葵花油5升</span>
+            <span class="newjia2">￥52.8</span>
+          </span>
+        </li>
+
+      </ul>
+    </div>
+
+    <Scroller/>
+
+<!--
+
+    <div class="c_cont4">
+         <div class="cont4_top">
+           <div class="cont4_top_left">
+             <span>类目热销榜</span>
+           </div>
+           <div class="cont4_top_right">
+             <span>更多<i class="iconfont icon-xiangyoujiantou"></i></span>
+           </div>
+         </div>
+         <ul class="cont4_good">
+           <li class="li4_top">
+             <div class="cont4_left">
+               <span class="cont4_T1">服装榜</span>
+               <img src="./images/niuzaiku.png" alt="">
+             </div>
+             <div class="cont4_right">
+               <span class="cont4_T2">家居榜</span>
+               <img src="./images/chuangdan.jpg" alt="">
+             </div>
+           </li>
+           <li class="li4">
+             <span class="jieshao">饮食榜</span>
+             <img src="./images/yinshi.png" alt="">
+
+           </li>
+           <li class="li4">
+             <span class="jieshao">饮食榜</span>
+             <img src="./images/yinshi.png" alt="">
+
+           </li>
+           <li class="li4">
+             <span class="jieshao">饮食榜</span>
+             <img src="./images/yinshi.png" alt="">
+
+           </li>
+
+
+
+         </ul>
+       </div>
+-->
+
+
   </section>
 
 </template>
@@ -238,6 +325,8 @@
   import BScroll from 'better-scroll'
   import 'swiper/dist/css/swiper.min.css'
   import {mapState} from 'vuex'
+  import NavBar from '../../components/NavBar/NavBar.vue'
+  import Scroller from '../../components/Scroller/Scroller.vue'
   export default {
 
     mounted () {
@@ -262,6 +351,10 @@
     computed:{
       ...mapState(["dataHome"])
 
+    },
+    components: {
+      NavBar,
+      Scroller
     }
   }
 </script>
@@ -362,7 +455,8 @@
 
     .contentCatainer
       width 100%
-      height 8.1rem
+      /*height 8.7rem*/
+      margin-bottom .3rem
       .c_top
         height 2.32rem
         .c_top_list
@@ -383,8 +477,9 @@
         img
           height 1.6rem
       .c_bottom
-        height 5.75rem
+        height 6.18rem
         padding .1rem .16rem
+
         .c_bottom_list
           width 3.23rem
           padding .2rem 0 0 .22rem
@@ -411,7 +506,6 @@
 
 
     .c_swaper
-      /*height 4.7rem*/
       width 100%
 
 
@@ -482,9 +576,48 @@
               text-decoration line-through
 
 
+    .c_cont2
+      height 8.27rem
+      width 100%
+      background-color #fff
+      .cont2_top
+        height 1rem
+        width 100%
+        padding 0 .3rem
+        font-size .32rem
+        box-sizing border-box
+        .cont2_top_left
+          height 1rem
+          float left
+          display flex
+          align-items center
 
+        .cont2_top_right
+          font-size .32rem
+          float right
+          display flex
+          align-items center
+          height 1rem
+          color #333
+          .icon-xiangyoujiantou
+            font-size .5rem
+            vertical-align middle
+            color #333
+
+      .cont2_good
+        width 100%
+        height 7rem
+        padding-left .3rem
         .li2
-          height 3.34rem
+          height 3.6rem
+          position relative
+          float left
+          margin 0 .15rem .2rem 0
+
+          img
+            height 2.16rem
+            background-color #F5F5F5
+            margin-bottom .2rem
           .jiage2
             display flex
             flex-direction column
@@ -496,5 +629,177 @@
             .newjia2
               font-size .30rem
               color #b4282d
+            .yellowWorld
+              color #fff
+              background-color #f48f18
+              font-size .26rem
+              height .4rem
+              width 1.12rem
+              padding 0 .14rem
+              vertical-align middle
+              line-height .4rem
+
+
+    .c_cont3
+      height 7.5rem
+      width 100%
+      background-color #fff
+      .cont3_top
+        height 1rem
+        width 100%
+        padding 0 .3rem
+        font-size .32rem
+        box-sizing border-box
+        .cont3_top_left
+          float left
+          display flex
+          align-items center
+
+        .cont3_top_right
+          font-size .32rem
+          float right
+          display flex
+          align-items center
+          color #333
+          .icon-xiangyoujiantou
+            font-size .5rem
+            vertical-align middle
+            color #333
+
+      .cont3_good
+        width 100%
+        height 7rem
+        padding-left .3rem
+        .li3_top
+          width 6.9rem
+          height 2.8rem
+          display flex
+          justify-content space-between
+          background-color #FEF0DF
+          margin-bottom .2rem
+          img
+            display block
+            height 2.8rem
+          .cont3_right
+            width 3.5rem
+            /*height 1.57rem*/
+            display flex
+            flex-direction column
+            margin  .5rem .3rem
+            .cont3_T1
+              color #fff
+              background-color #f48f18
+              font-size .26rem
+              height .4rem
+              width .91rem
+              padding 0 .14rem
+              vertical-align middle
+              line-height .4rem
+              border-radius .02667rem
+              display inline !important
+            .cont3_T2
+              font-family: PingFangSC-Regular;
+              font-size .32rem
+              width 3.5rem
+              overflow hidden
+              text-overflow ellipsis
+              white-space nowrap
+              margin  .1rem 0
+            .cont3_T3
+              font-size .30rem
+              color #7F7F7F
+              width 3.5rem
+              overflow hidden
+              text-overflow: ellipsis
+              white-space nowrap
+              margin-bottom .15rem
+            .cont3_T4
+              font-size .32333rem
+              color #b4282d
+
+        .li3
+          height 3.6rem
+          position relative
+          float left
+          margin 0 .15rem .2rem 0
+
+          img
+            height 2.16rem
+            background-color #F5F5F5
+            margin-bottom .2rem
+          .jiage2
+            display flex
+            flex-direction column
+            height .67rem
+            .jieshao
+              font-size .30rem
+              color #333
+              margin-bottom .1rem
+            .newjia2
+              font-size .30rem
+              color #b4282d
+            .yellowWorld
+              color #fff
+              background-color #f48f18
+              font-size .26rem
+              height .4rem
+              width 1.12rem
+              padding 0 .14rem
+              vertical-align middle
+              line-height .4rem
+
+
+
+
+
+
+
+    .c_cont4
+      height 7.1rem
+      width 100%
+      background-color #fff
+      .cont4_top
+        height 1rem
+        width 100%
+        padding 0 .3rem
+        font-size .32rem
+        box-sizing border-box
+        .cont4_top_left
+          float left
+          display flex
+          align-items center
+
+        .cont3_top_right
+          font-size .32rem
+          float right
+          display flex
+          align-items center
+          color #333
+          .icon-xiangyoujiantou
+            font-size .5rem
+            vertical-align middle
+            color #333
+
+      .cont4_good
+        width 100%
+        height 7rem
+        padding-left .3rem
+        .cont4_left
+          width 3.4rem
+          height 2rem
+          span
+            font-size .24rem
+          img
+            2rem
+            2rem
+
+
+
+
+
+  .line
+    height  .2rem
+    width 100%
+    background-color #f4f4f4
 
 </style>
