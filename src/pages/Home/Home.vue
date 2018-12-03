@@ -8,7 +8,7 @@
           <i class="iconfont icon-sousuo" ></i>
           <span class="placeholder" >搜索好物, 共19601款好物</span>
         </div>
-        <div class="h_login">
+        <div class="h_login" @click="toLogin">
           <span>登录</span>
         </div>
       </div>
@@ -102,6 +102,8 @@
     <div class="line"></div>
 
     <NavBar/>
+
+    <div class="line"></div>
 
     <div class="c_cont1">
       <div class="cont1_top">
@@ -269,52 +271,10 @@
       </ul>
     </div>
 
+    <div class="line"></div>
+
     <Scroller/>
-
-<!--
-
-    <div class="c_cont4">
-         <div class="cont4_top">
-           <div class="cont4_top_left">
-             <span>类目热销榜</span>
-           </div>
-           <div class="cont4_top_right">
-             <span>更多<i class="iconfont icon-xiangyoujiantou"></i></span>
-           </div>
-         </div>
-         <ul class="cont4_good">
-           <li class="li4_top">
-             <div class="cont4_left">
-               <span class="cont4_T1">服装榜</span>
-               <img src="./images/niuzaiku.png" alt="">
-             </div>
-             <div class="cont4_right">
-               <span class="cont4_T2">家居榜</span>
-               <img src="./images/chuangdan.jpg" alt="">
-             </div>
-           </li>
-           <li class="li4">
-             <span class="jieshao">饮食榜</span>
-             <img src="./images/yinshi.png" alt="">
-
-           </li>
-           <li class="li4">
-             <span class="jieshao">饮食榜</span>
-             <img src="./images/yinshi.png" alt="">
-
-           </li>
-           <li class="li4">
-             <span class="jieshao">饮食榜</span>
-             <img src="./images/yinshi.png" alt="">
-
-           </li>
-
-
-
-         </ul>
-       </div>
--->
-
+    <Backgrounds/>
 
   </section>
 
@@ -327,6 +287,7 @@
   import {mapState} from 'vuex'
   import NavBar from '../../components/NavBar/NavBar.vue'
   import Scroller from '../../components/Scroller/Scroller.vue'
+  import Backgrounds from '../../components/Backgrounds/Backgrounds.vue'
   export default {
 
     mounted () {
@@ -354,7 +315,13 @@
     },
     components: {
       NavBar,
-      Scroller
+      Scroller,
+      Backgrounds
+    },
+    methods: {
+      toLogin(){
+        this.$router.replace('/profile')
+      }
     }
   }
 </script>
@@ -435,8 +402,6 @@
       width 800%
       height 4rem
       .swiper-wrapper
-        width 100%
-        height 100%
         .swiper-slide
           height 4rem
           width 7.5rem
@@ -650,21 +615,18 @@
         padding 0 .3rem
         font-size .32rem
         box-sizing border-box
+        display flex
+        align-items center
+        justify-content space-between
         .cont3_top_left
-          float left
-          display flex
-          align-items center
-
+          font-size .32rem
         .cont3_top_right
           font-size .32rem
-          float right
-          display flex
-          align-items center
           color #333
           .icon-xiangyoujiantou
             font-size .5rem
-            vertical-align middle
             color #333
+            vertical-align middle
 
       .cont3_good
         width 100%

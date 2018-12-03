@@ -8,6 +8,8 @@ import Goods from '../pages/Goods/Goods.vue'
 import Cart from '../pages/Cart/Cart.vue'
 import Profile from '../pages/Profile/Profille.vue'
 import Category from '../pages/Category/Category.vue'
+import Email from '../pages/Email/Email.vue'
+import Phone from '../pages/Phone/Phone.vue'
 
 //声明使用vue插件（VueRouter）
 Vue.use(VueRouter)
@@ -18,23 +20,43 @@ export default new VueRouter({
   routes: [
     {
       path: '/home',
-      component: Home
+      component: Home,
+      meta: {
+        showFooter: true
+      }
     },
     {
       path: '/goods',
-      component: Goods
+      component: Goods,
+      meta: {
+        showFooter: true
+      }
     },
     {
       path: '/category',
-      component: Category
+      component: Category,
+      meta: {
+        showFooter: true
+      }
     },
     {
       path: '/cart',
-      component: Cart
+      component: Cart,
+      meta: {
+        showFooter: true
+      }
     },
     {
       path: '/profile',
       component: Profile
+    },
+    {
+      path: '/phone',
+      component: Phone
+    },
+    {
+      path: '/email',
+      component: Email
     },
     {
       path: '/',

@@ -1,3 +1,4 @@
+
 import axios from 'axios'
 import {stringify} from 'qs'
 export default function ajax (url, data = {}, type = 'GET') {
